@@ -21,7 +21,7 @@ const tracks = [
     if(!groupByGenre[genre]){
         groupByGenre[genre] = [];
     }
-    groupByGenre[genre].push(track);
+    groupByGenre[genre].push(track.title);
   }
 
   console.log(groupByGenre);
