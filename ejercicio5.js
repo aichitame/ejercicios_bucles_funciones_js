@@ -11,8 +11,7 @@ const albums = [
     { title: 'The Wall', genre: 'Rock', duration: 81.00 },
     { title: 'Born to Run', genre: 'Rock', duration: 39.26 },
     { title: 'The Joshua Tree', genre: 'Rock', duration: 50.11 }
-  ];
-  
+];
 let duracionAlbumesRock = 0;
 
 for (let i = 0; i < albums.length; i++){
