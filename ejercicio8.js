@@ -22,6 +22,6 @@ for (let i = 0; i < artists.length; i++){
     console.log(name );
     for (let j = 0; j < artist.influences.length; j++){
         const influence = artist.influences[j];
-        console.log(influence);
+        console.log("Influenciado por " + influence);
     }
 }
